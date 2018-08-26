@@ -6,7 +6,7 @@
     <LangVersion>7.1</LangVersion>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>SetBlobMimeTypes</ToolCommandName>
-    <Version>1.1.3</Version>
+    <Version>1.1.4</Version>
     <Authors>VisualBean</Authors>
     <Description>A simple tool that will set correct Content-Type for most files on azure blob storage.</Description>
     <PackageLicenseUrl>https://github.com/VisualBean/SetAzureBlobMimeTypes/blob/1.1.0/LICENSE</PackageLicenseUrl>
