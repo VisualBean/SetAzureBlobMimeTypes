@@ -14,5 +14,5 @@ dotnet tools install --global SetBlobMimeTypes
 ```
 SetBlobMimeTypes -a <Storage Account Name> -k <Storage Account Key> -c <Container Name>
 ```
-
-Can be found here: [https://www.nuget.org/packages/SetBlobMimeTypes](https://www.nuget.org/packages/SetBlobMimeTypes)
+## MimeTypes
+A list of supported MimeTypes be found here: [https://www.nuget.org/packages/SetBlobMimeTypes](https://www.nuget.org/packages/SetBlobMimeTypes)
