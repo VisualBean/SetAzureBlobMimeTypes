@@ -28,6 +28,7 @@ namespace SetBlobMimeTypes
 
                 CloudBlobContainer container;
                 CloudBlobClient client;
+                 
                 try
                 {
                     var storageAccount = new CloudStorageAccount(
@@ -52,7 +53,6 @@ namespace SetBlobMimeTypes
             app.Execute(args);
 
             Console.ReadKey();
-            
         }
         public static async Task SetBlobMimeTypes(CloudBlobContainer container)
         {            
@@ -63,6 +63,7 @@ namespace SetBlobMimeTypes
                 var itemName = item.Name;
                 var itemMimeType = MimeTypes.GetMimeType(itemName);
                 item.Properties.ContentType = itemMimeType;
+                
                 try
                 {
                     Console.WriteLine($"Setting mimetype:{itemMimeType} for blob:{itemName}");
@@ -76,12 +77,12 @@ namespace SetBlobMimeTypes
             }
 
             Console.WriteLine("Done!");
-
         }
         private static async Task<List<CloudBlockBlob>> GetBlobItemsAsync(CloudBlobContainer container, string prefix = null)
         {
             var blobItems = new List<CloudBlockBlob>();
             BlobContinuationToken token = null;
+            
             do
             {
                 var segment = await container.ListBlobsSegmentedAsync(prefix, token);
