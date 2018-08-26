@@ -1,5 +1,5 @@
 [![GitHub license](https://img.shields.io/github/license/VisualBean/SetAzureBlobMimeTypes.svg)
-[![NuGet](https://img.shields.io/nuget/v/Nuget.Core.svg)](https://www.nuget.org/packages/SetBlobMimeTypes/)
+[![NuGet](https://img.shields.io/nuget/v/SetBlobMimeTypes.svg)](https://www.nuget.org/packages/SetBlobMimeTypes/)
 
 # SetAzureBlobMimeTypes
 A simple .Net Core Global tool for setting Content-Type of azure blob files.
