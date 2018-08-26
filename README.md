@@ -1,4 +1,4 @@
-[![GitHub license](https://img.shields.io/github/license/VisualBean/SetAzureBlobMimeTypes.svg)]
+[![GitHub license](https://img.shields.io/github/license/VisualBean/SetAzureBlobMimeTypes.svg)
 [![NuGet](https://img.shields.io/nuget/v/Nuget.Core.svg)](https://www.nuget.org/packages/SetBlobMimeTypes/)
 
 # SetAzureBlobMimeTypes
