@@ -51,8 +51,6 @@ namespace SetBlobMimeTypes
              });
 
             app.Execute(args);
-
-            Console.ReadKey();
         }
         public static async Task SetBlobMimeTypes(CloudBlobContainer container)
         {            
