@@ -4,6 +4,7 @@
 
 # SetAzureBlobMimeTypes
 A simple .Net Core Global tool for setting Content-Type of azure blob files.
+The tool goes through the entire container recursively and changes the content-type to be the 'correct' one.
 
 ## Installation
 ```
